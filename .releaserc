@@ -1,0 +1,33 @@
+{
+  "branches": [
+    ",+([0-9])?(.{+([0-9]),x}).x",
+    "master",
+    "next",
+    "next-major",
+    {"name": "beta", "prerelease": true},
+    {"name": "alpha", "prerelease": true},
+    {"name": "support/v4", "range": "4.x", "channel": "4.x"}
+  ],
+  "preset": "angular",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/changelog", {
+      "changelogFile": "CHANGELOG.md"
+    }],
+    ["@semantic-release/npm",{
+      "publish": false
+    }],
+    ["@semantic-release/git", {
+      "assets": [
+        "CHANGELOG.md",
+        "package.json",
+        "projects/**/package.json",
+        "package-lock.json",
+        "projects/**/package-lock.json"
+      ],
+      "message": "ci(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    }]
+  ]
+}
+
