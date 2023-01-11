@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ShreenidhiBodas/test-semantic-release/compare/v1.0.0...v1.1.0) (2023-01-11)
+
+
+### Features
+
+* **add-title:** Add title property ([0fe78ce](https://github.com/ShreenidhiBodas/test-semantic-release/commit/0fe78ce8f5d067a49cb3e41af6d77ebf45509118))
+
 # 1.0.0 (2023-01-11)
 
 
