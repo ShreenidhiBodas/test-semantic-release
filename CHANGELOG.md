@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ShreenidhiBodas/test-semantic-release/compare/v1.1.0...v2.0.0) (2023-01-11)
+
+
+### Performance Improvements
+
+* **component:** Remove Title property ([8ece02f](https://github.com/ShreenidhiBodas/test-semantic-release/commit/8ece02f5ff6bee7ad7c835eec135a9c7e06cb968))
+
+
+### BREAKING CHANGES
+
+* **component:** title prop will not be rendered
+
 # [1.1.0](https://github.com/ShreenidhiBodas/test-semantic-release/compare/v1.0.0...v1.1.0) (2023-01-11)
 
 
