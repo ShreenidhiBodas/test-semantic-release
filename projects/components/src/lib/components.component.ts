@@ -11,5 +11,5 @@ import { Component } from '@angular/core';
   ]
 })
 export class ComponentsComponent {
-  title: string = 'Test App';
+
 }
