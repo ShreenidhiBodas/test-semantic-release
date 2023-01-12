@@ -1,3 +1,15 @@
+# [3.0.0-beta.1](https://github.com/ShreenidhiBodas/test-semantic-release/compare/v2.0.0...v3.0.0-beta.1) (2023-01-12)
+
+
+### Features
+
+* new feature ([b6c325f](https://github.com/ShreenidhiBodas/test-semantic-release/commit/b6c325fd078eb8d005971bf0a05c59d819d8194a))
+
+
+### BREAKING CHANGES
+
+* added title prop and rendered
+
 # [2.0.0](https://github.com/ShreenidhiBodas/test-semantic-release/compare/v1.1.0...v2.0.0) (2023-01-11)
 
 
