@@ -5,11 +5,12 @@ import { Component } from '@angular/core';
   template: `
     <p>
       components works!
+      {{ title }}
     </p>
   `,
   styles: [
   ]
 })
 export class ComponentsComponent {
-
+  title: string = 'Test Semantic release';
 }
