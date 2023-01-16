@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/ShreenidhiBodas/test-semantic-release/compare/v2.0.0...v2.1.0) (2023-01-16)
+
+
+### Features
+
+* **package.json:** Add postversion script ([6899bc2](https://github.com/ShreenidhiBodas/test-semantic-release/commit/6899bc2959e8b54452275675c6f6027a99d55b25))
+
 # [2.0.0](https://github.com/ShreenidhiBodas/test-semantic-release/compare/v1.1.0...v2.0.0) (2023-01-11)
 
 
